@@ -19,5 +19,5 @@ h2 {
 }
 
 .strike {
-  text-decoration: line-through;
+  text-decoration-line: line-through;
 }
