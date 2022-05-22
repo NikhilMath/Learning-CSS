@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 1.6rem;
 }
 
 .btn {
@@ -10,3 +11,20 @@
   padding: .5em 1em;
   border-radius: .3em
 }
+
+.btn:hover, .btn:focus {
+  background-color: hsl(0, 0%, 80%);
+  box-shadow: 0 0 10px 0 hsl(0  0%, 70%);
+}
+
+.btn-primary {
+  background-color: hsl(271, 70%, 40%);
+  color: white;
+  border-color: hsl(271, 70%, 30%);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: hsl(271, 70%, 40%);
+  box-shadow: 0 0 15px 0 hsl(0  0%, 30%)
+}
+
