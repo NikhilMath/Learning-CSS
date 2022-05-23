@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .hide-button {
@@ -30,7 +31,7 @@ body {
   background-color: #04b2fc;
   border-radius: 0.4em;
   font-size: 2rem;
-  padding: 0.4em; 
+  padding: 0.4em;
   color: white;
   border: none;
 }
